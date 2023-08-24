@@ -1,4 +1,5 @@
 import type { V2_MetaFunction } from "@remix-run/node";
+import Work from "~/scenes/Work";
 
 export const meta: V2_MetaFunction = () => {
   return [
@@ -57,6 +58,7 @@ export default function Index() {
             <rect x="0.28125" y="0.484344" width="24" height="1" fill="#EDF738"/>
       </svg>your event</div>
      </div>
+     <Work/>
     </div>
   );
 }
