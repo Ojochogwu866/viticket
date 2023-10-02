@@ -18,7 +18,7 @@ export default function Work(){
                 <p className=" mt-2 text-[13px]">
                 View our recent events here.
             </p>
-            <Link to="/" className=" inline-flex border border-[#E8E8E8] px-[13px] text-[13px] py-[8px] rounded-[100px]">View More Events</Link>
+            <Link to="/" className=" inline-flex border border-[#E8E8E8] px-[23px] text-[13px] py-[8px] rounded-[100px]">View More Events</Link>
             </div>
             </div> 
             <div className=" w-full absolute py-4 flex left-0 mt-28 bg-white text-black">
@@ -51,7 +51,6 @@ export default function Work(){
                         <p className=" text-xs bg-white px-2">Category: Tech Events, Technology</p>
                         </div>
                     </div>
-        
                 </div>
                 <div className="">
                 <div className="">
@@ -81,6 +80,15 @@ export default function Work(){
                     <path d="M20 38.3332V1.6665" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M33.3327 25L19.9994 38.3333L6.66602 25" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
+            </div>
+            <div className="">
+                <div className=" mt-20">
+                <h1 className=" text-white text-[13px] uppercase">Get your events featured on our board</h1>
+                <div className="mt-6 ml-10 flex flex-col">
+                <span className=" text-left text-2xl text-gray-700 text-opacity-50 italic font-bold pt-5
+                    leading-5 ">Feature <br/> On Our <br/> Platform</span>
+                    </div>
+                    </div>
             </div>
         </div>
     )
