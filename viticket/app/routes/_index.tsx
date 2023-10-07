@@ -1,4 +1,5 @@
 import type { V2_MetaFunction } from "@remix-run/node";
+import Upcomming from "~/scenes/upcomming";
 import Work from "~/scenes/Work";
 import Home from './home'
 
@@ -14,6 +15,7 @@ export default function Index() {
 <div className=" bg-black">
     <Home/>
     <Work/>
+    <Upcomming/>
 </div>
   );
 }
