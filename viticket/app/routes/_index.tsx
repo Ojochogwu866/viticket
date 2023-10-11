@@ -1,4 +1,5 @@
 import type { V2_MetaFunction } from "@remix-run/node";
+import WIS from "~/scenes/WIS"
 import Upcomming from "~/scenes/upcomming";
 import Work from "~/scenes/Work";
 import Home from './home'
@@ -16,6 +17,7 @@ export default function Index() {
     <Home/>
     <Work/>
     <Upcomming/>
+    <WIS/>
 </div>
   );
 }
