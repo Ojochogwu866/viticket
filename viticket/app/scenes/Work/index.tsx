@@ -61,7 +61,7 @@ export default function Work(){
             </div>
                 </div>
                 </div>
-                <svg xmlns="http://www.w3.org/2000/svg" className=" -rotate-90" width="40" height="39" viewBox="0 0 40 39" fill="none">
+                <svg xmlns="http://www.w3.org/2000/svg" className="-rotate-90 pl-3" width="40" height="39" viewBox="0 0 40 39" fill="none">
                     <path d="M20 38.3332V1.6665" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M33.3327 25L19.9994 38.3333L6.66602 25" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
@@ -69,12 +69,8 @@ export default function Work(){
             <div className="">
                 <div className=" mt-20">
                     <h1 className=" text-white text-[13px] uppercase">Get your events featured on our board</h1>
-                        <div className="mt-6 ml-10 flex flex-col">
-                    <span className=" text-left text-2xl text-gray-700 text-opacity-50 italic font-bold pt-5
-                        leading-5 ">Feature <br/> On Our <br/> Platform</span>
-                        </div>
                     </div>
-                    <div className=" w-4/5 mx-auto">
+                    <div className=" w-4/5 mx-auto mt-10">
                         <div className="flex w-1/2 h-[400px]">
                             <div className="w-2/6 rounded-sm h-full bg-rose-600"/>
                             <div className="w-2/6 rounded-sm h-full bg-blue-600"/>
@@ -92,9 +88,11 @@ export default function Work(){
                             </clipPath>
                             </defs>
                         </svg>
+                        <div className="">
                             <p>Hala Arvata</p>
                             <p>Chrystome and Onyx</p>
                             <p>Purveteer</p>
+                            </div>
                         </div>
                     </div>
             </div>
