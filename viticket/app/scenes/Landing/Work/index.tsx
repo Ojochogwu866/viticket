@@ -19,7 +19,7 @@ export default function Work(){
             </div>
             </div> 
             <div className=" w-full absolute py-4 flex left-0 mt-28 bg-white text-black">
-                <div className=" italic  flex justify-center items-center font-light text-[12px] px-5">Viticket</div>
+                <div className=" italic  flex justify-center items-center font-light text-[12px] pl-5">Foundation3</div>
                 <div className=" flex text-[12px] gap-6">
                     <div className={`${hover}`}>Tech Events</div>
                     <div className={`${hover}`}>Music</div>
@@ -70,7 +70,7 @@ export default function Work(){
                 <div className=" mt-20">
                     <h1 className=" text-white text-[13px] uppercase">Get your events featured on our board</h1>
                     </div>
-                    <div className=" w-4/5 mx-auto mt-10">
+                    <div className=" w-4/5 mx-auto mt-10 flex items-center">
                         <div className="flex w-1/2 h-[400px]">
                             <div className="w-2/6 rounded-sm h-full bg-rose-600"/>
                             <div className="w-2/6 rounded-sm h-full bg-blue-600"/>
@@ -79,8 +79,8 @@ export default function Work(){
                         <div className="">
                         <svg xmlns="http://www.w3.org/2000/svg" width="29" height="20" viewBox="0 0 29 20" fill="none">
                             <g clip-path="url(#clip0_4_4582)">
-                                <path d="M1.63867 10.1306H23.7499" stroke="black" stroke-width="2.375" stroke-miterlimit="20" stroke-linecap="square"/>
-                                <path d="M15.6982 18.5737L25.1982 10.1306L15.6982 1.6851" stroke="black" stroke-width="2.375" stroke-miterlimit="20"/>
+                                <path d="M1.63867 10.1306H23.7499" stroke="white" stroke-width="2.375" stroke-miterlimit="20" stroke-linecap="square"/>
+                                <path d="M15.6982 18.5737L25.1982 10.1306L15.6982 1.6851" stroke="white" stroke-width="2.375" stroke-miterlimit="20"/>
                             </g>
                             <defs>
                             <clipPath id="clip0_4_4582">
@@ -88,7 +88,7 @@ export default function Work(){
                             </clipPath>
                             </defs>
                         </svg>
-                        <div className="">
+                        <div className=" text-gray-400 text-[50px]">
                             <p>Hala Arvata</p>
                             <p>Chrystome and Onyx</p>
                             <p>Purveteer</p>

@@ -1,6 +1,6 @@
 import type { LinksFunction, V2_MetaFunction } from "@remix-run/node";
 import stylesheet from "~/tailwind.css";
-import Navigation from '~/scenes/Nav'
+import Navigation from '~/scenes/Landing/Nav'
 
 import {
   Links,

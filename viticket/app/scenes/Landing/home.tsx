@@ -3,9 +3,10 @@ export default function Index() {
   return (
     <div className="text-white bg-black py-6 sm:py-8 lg:py-24">
       <div className="flex justify-between items-center">
-      <div className=" flex justify-center items-center gap-3 text-xs text-[#DC2B46]">get the<svg width="25" className="mt-[6px]" height="2" viewBox="0 0 25 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="0.28125" y="0.484344" width="24" height="1" fill="#DC2B46"/>
-</svg>feel</div>
+      <div className=" flex justify-center items-center gap-3 text-xs text-[#DC2B46]">get the
+        <svg width="25" className="mt-[6px]" height="2" viewBox="0 0 25 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.28125" y="0.484344" width="24" height="1" fill="#DC2B46"/>
+        </svg>feel</div>
       <div className=" text-[#DC2B46] flex-col flex -mt-10 justify-center items-center">   
         <svg width="33" height="34" className=" -ml-2" viewBox="0 0 33 34" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0_4_4102)">
@@ -18,26 +19,26 @@ export default function Index() {
           </defs>
         </svg>      
         <svg width="255" height="149" className=" -rotate-90" viewBox="0 0 555 549" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line x1="6.32411" y1="2.79573" x2="550.796" y2="257.676" stroke="#DC2B46" stroke-width="5" stroke-linecap="round"/>
-<line x1="197.592" y1="268.331" x2="300.488" y2="138.408" stroke="#DC2B46" stroke-width="5" stroke-linecap="round"/>
-<line x1="319.465" y1="379.917" x2="197.917" y2="252.535" stroke="#DC2B46" stroke-width="5" stroke-linecap="round"/>
-<path d="M3 546L552 261" stroke="#DC2B46" stroke-width="5" stroke-linecap="round"/>
-<path d="M3 261H552" stroke="#DC2B46" stroke-width="5" stroke-linecap="round"/>
-</svg>
+            <line x1="6.32411" y1="2.79573" x2="550.796" y2="257.676" stroke="#DC2B46" stroke-width="5" stroke-linecap="round"/>
+            <line x1="197.592" y1="268.331" x2="300.488" y2="138.408" stroke="#DC2B46" stroke-width="5" stroke-linecap="round"/>
+            <line x1="319.465" y1="379.917" x2="197.917" y2="252.535" stroke="#DC2B46" stroke-width="5" stroke-linecap="round"/>
+            <path d="M3 546L552 261" stroke="#DC2B46" stroke-width="5" stroke-linecap="round"/>
+            <path d="M3 261H552" stroke="#DC2B46" stroke-width="5" stroke-linecap="round"/>
+        </svg>
       <div className="">
         <h1 className=" font-extrabold text-[100px]  ">
           Make it SL<span className=" transform-gpu rotate-90">E</span><span>E</span>K</h1></div>
-      <p className=" text-sm w-[300px] z-30">
-        Ease of managing tickets for your events.
-        Take a closer step into effectively organising your events, 
-        manage ticket sales and seats from one dashboard, we can make it work together.
-      </p>
-      </div>
-      <div className=" flex justify-center items-center gap-3 text-xs text-[#DC2B46]">capture 
-      <svg width="25" className="mt-[6px]" height="2" viewBox="0 0 25 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <p className=" text-sm w-[300px] z-30">
+            Ease of managing tickets for your events.
+            Take a closer step into effectively organising your events, 
+            manage ticket sales and seats from one dashboard, we can make it work together.
+          </p>
+        </div>
+        <div className=" flex justify-center items-center gap-3 text-xs text-[#DC2B46]">capture 
+        <svg width="25" className="mt-[6px]" height="2" viewBox="0 0 25 2" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="0.28125" y="0.484344" width="24" height="1" fill="#DC2B46"/>
-      </svg>your event</div>
-      </div>
+        </svg>your event</div>
+        </div>
     </div>
   );
 }
