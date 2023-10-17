@@ -1,9 +1,9 @@
 
 export default function Index() {
   return (
-    <div className="text-white bg-black py-6 sm:py-8 lg:py-24">
-      <div className="flex justify-between items-center">
-      <div className=" flex justify-center items-center gap-3 text-xs text-[#DC2B46]">get the
+    <div className="text-white bg-black py-6 mt-4 sm:py-8 lg:py-24">
+      <div className="flex justify-center md:justify-between items-center">
+      <div className=" flex justify-center items-center gap-2 md:gap-3 text-xs text-[#DC2B46]">get the
         <svg width="25" className="mt-[6px]" height="2" viewBox="0 0 25 2" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="0.28125" y="0.484344" width="24" height="1" fill="#DC2B46"/>
         </svg>feel</div>
@@ -26,7 +26,7 @@ export default function Index() {
             <path d="M3 261H552" stroke="#DC2B46" stroke-width="5" stroke-linecap="round"/>
         </svg>
       <div className="">
-        <h1 className=" font-extrabold text-[100px]  ">
+        <h1 className=" font-bold text-[40px] md:font-extrabold md:text-[100px] ">
           Make it SL<span className=" transform-gpu rotate-90">E</span><span>E</span>K</h1></div>
           <p className=" text-sm w-[300px] z-30">
             Ease of managing tickets for your events.
@@ -34,7 +34,7 @@ export default function Index() {
             manage ticket sales and seats from one dashboard, we can make it work together.
           </p>
         </div>
-        <div className=" flex justify-center items-center gap-3 text-xs text-[#DC2B46]">capture 
+        <div className=" flex justify-center items-center gap-2 md:gap-3 text-xs text-[#DC2B46]">capture 
         <svg width="25" className="mt-[6px]" height="2" viewBox="0 0 25 2" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="0.28125" y="0.484344" width="24" height="1" fill="#DC2B46"/>
         </svg>your event</div>

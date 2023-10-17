@@ -34,7 +34,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className=" overflow-x-hidden">
         <Layout>
         <Outlet />
         <ScrollRestoration />
@@ -49,7 +49,7 @@ export default function App() {
 function Layout ({children}: {children: ReactNode}){
 return (
   <>
-  <div className=" bg-black mx-auto  w-screen px-20 h-full">
+  <div className=" bg-black px-5 md:px-20">
     <Navigation/>
     <main>{children}</main>
   </div>

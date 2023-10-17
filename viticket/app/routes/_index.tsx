@@ -14,7 +14,7 @@ export const meta: V2_MetaFunction = () => {
 
 export default function Index() {
   return (
-<div className=" bg-black">
+<div className=" bg-black overflow-x-hidden">
     <Home/>
     <Work/>
     <Upcomming/>
