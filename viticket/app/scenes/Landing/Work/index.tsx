@@ -61,7 +61,9 @@ export default function Work(){
             </div>
                 </div>
                 </div>
-                <svg xmlns="http://www.w3.org/2000/svg" className="-rotate-90 pl-3" width="40" height="39" viewBox="0 0 40 39" fill="none">
+            </div>
+            <div className=" w-full flex justify-end items-end mt-3">
+            <svg xmlns="http://www.w3.org/2000/svg" className="-rotate-90 pl-3" width="40" height="39" viewBox="0 0 40 39" fill="none">
                     <path d="M20 38.3332V1.6665" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M33.3327 25L19.9994 38.3333L6.66602 25" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
