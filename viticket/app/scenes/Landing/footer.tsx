@@ -3,7 +3,7 @@ export default function footer(){
     const ul = "text-sm text-gray-400 font-semibold uppercase leading-7"
     //const li = "text-sm font-normal leading-4"
     return(
-        <div className=" text-gray-400 flex flex-wrap py-20 md:gap-20">
+        <div className=" text-gray-400 flex flex-col md:flex-row md:space-y-0 space-y-6 flex-wrap py-20 md:gap-20">
             <div className="">
                 <h1 className=" font-bold text-lg text-gray-700 ">Foundation3</h1>
                 <span className=" text-sm font-normal">
@@ -39,7 +39,7 @@ export default function footer(){
                 </ul>
             </div>
             <div className="">
-                <ul className="grid text-white grid-cols-2 gap-1 text-[13px]">
+                <ul className="grid text-white grid-cols-2 w-[80px] gap-1 text-[13px]">
                     <li className=" bg-gray-700 w-[40px] h-[40px] inline-flex justify-center items-center">FB</li>
                     <li className=" bg-gray-700 w-[40px] h-[40px] inline-flex justify-center items-center">TW</li>
                     <li className=" bg-gray-700 w-[40px] h-[40px] inline-flex justify-center items-center">IG</li>

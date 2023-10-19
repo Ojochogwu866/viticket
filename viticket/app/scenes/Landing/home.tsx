@@ -18,17 +18,17 @@ export default function Index() {
             </clipPath>
           </defs>
         </svg>      
-        <svg width="255" height="149" className=" -rotate-90" viewBox="0 0 555 549" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg  className=" -rotate-90 w-[150px] h-[150px] md:w-[250px] md:h-[200px]" viewBox="0 0 555 549" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line x1="6.32411" y1="2.79573" x2="550.796" y2="257.676" stroke="#DC2B46" stroke-width="5" stroke-linecap="round"/>
             <line x1="197.592" y1="268.331" x2="300.488" y2="138.408" stroke="#DC2B46" stroke-width="5" stroke-linecap="round"/>
             <line x1="319.465" y1="379.917" x2="197.917" y2="252.535" stroke="#DC2B46" stroke-width="5" stroke-linecap="round"/>
             <path d="M3 546L552 261" stroke="#DC2B46" stroke-width="5" stroke-linecap="round"/>
             <path d="M3 261H552" stroke="#DC2B46" stroke-width="5" stroke-linecap="round"/>
         </svg>
-      <div className="">
+      <div className="flex justify-center flex-col items-center">
         <h1 className=" font-bold text-[35px] md:font-extrabold md:text-[100px] ">
           Make it SL<span className=" transform-gpu rotate-90">E</span><span>E</span>K</h1></div>
-          <p className=" text-sm w-[300px] z-30">
+          <p className=" text-[12px] md:text-sm w-[300px] z-30">
             Ease of managing tickets for your events.
             Take a closer step into effectively organising your events, 
             manage ticket sales and seats from one dashboard, we can make it work together.

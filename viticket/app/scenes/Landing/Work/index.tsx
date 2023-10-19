@@ -30,7 +30,7 @@ export default function Work(){
             <div className=" mt-32 flex items-center">
             <div className="flex">
             <div className="flex w-full mt-8 relative gap-6">
-            <div className="flex flex-col bg-white bg-opacity-10 max-w-[410px] h-[480px] rounded p-1 relative">
+            <div className="flex flex-col bg-white bg-opacity-10 w-[320px] md:w-[410px] h-[480px] rounded p-1 relative">
                 <div className=" mt-[40px] w-11/12 m-auto">
                     <h1 className=" text-gray-400 font-bold text-[14px]">OSCA FEST 2023</h1>
                     <p className=" text-[13px] text-gray-400">Open Source Community Africa, Africa's biggest open source festival. Learn More</p>
@@ -40,7 +40,7 @@ export default function Work(){
                 </div>
             </div>
 
-            <div className="flex flex-col bg-white bg-opacity-10 max-w-[410px] h-[480px] rounded p-1 relative">
+            <div className="flex flex-col bg-white bg-opacity-10 w-[320px] md:w-[410px] h-[480px] rounded p-1 relative">
                 <div className=" mt-[40px] w-11/12 m-auto">
                     <h1 className=" text-gray-400 font-bold text-[14px]">OSCA FEST 2023</h1>
                     <p className=" text-[13px] text-gray-400">Open Source Community Africa, Africa's biggest open source festival. Learn More</p>
@@ -50,7 +50,7 @@ export default function Work(){
                 </div>
             </div>
 
-            <div className="flex flex-col bg-white bg-opacity-10 max-w-[410px] h-[480px] rounded p-1 relative">
+            <div className="flex flex-col bg-white bg-opacity-10 w-[320px] md:w-[410px] h-[480px] rounded p-1 relative">
                 <div className=" mt-[40px] w-11/12 m-auto">
                     <h1 className=" text-gray-400 font-bold text-[14px]">OSCA FEST 2023</h1>
                     <p className=" text-[13px] text-gray-400">Open Source Community Africa, Africa's biggest open source festival. Learn More</p>
